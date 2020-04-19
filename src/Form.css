@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {   /*Diseño para el fondo*/
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background-color: rgb(196, 47, 255);
+}
+
+.container { /*se crea el contenedor */
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+
+
+#contact { /*Se crea el cuadro blanco donde van los inputs*/
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {/*Se coloca diseño al titulo de H3*/
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {/*Diseño al H4*/
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset { /*Se colocan espacios entre los inputs*/
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+/*Se coloca diseño para los inputs*/
+#contact input[type="nombre"], #contact input[type="email"], #contact input[type="tel"] , #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+/*Se coloca el diseño para el textarea*/
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+/*Se coloca diseño para el boton submit*/
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+
