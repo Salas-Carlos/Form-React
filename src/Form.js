@@ -3,7 +3,7 @@ import React from 'react';
 import './Form.css';
 
 
-class Mailing extends React.Component {
+class Form extends React.Component {
 
   constructor(props) {
     super(props);
@@ -77,4 +77,4 @@ class Mailing extends React.Component {
   }
 }
 
-export default Mailing;
+export default Form;
